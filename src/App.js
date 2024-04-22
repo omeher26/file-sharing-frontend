@@ -33,7 +33,9 @@ function App() {
 
   return (
     <div className='container' >
-      <img src={logo} alt="" />
+      <div className='image'>
+        <img src={logo} alt="" />
+      </div>
       <div className='wrapper' >
         <h1>File Sharing 📂</h1>
         <p>Upload and share the download link.</p>
