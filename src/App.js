@@ -38,7 +38,8 @@ function App() {
       </div>
       <div className='wrapper' >
         <h1>File Sharing 📂</h1>
-        <p>Upload and share the download link.</p>
+        <h2>Upload and share the download link.</h2>
+        <p>Please note: File uploads may take up to 1 minute for link generation.</p>
 
         <button onClick={() => onUploadClick()} >Upload</button>
         <input type="file"

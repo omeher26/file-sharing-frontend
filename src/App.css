@@ -25,10 +25,11 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content:center;
 }
 
 h1 {
+  flex-wrap: wrap;
   font-size: 50px;
   font-weight: 700;
   color: #445A6F;
@@ -36,14 +37,20 @@ h1 {
 }
 
 p{
-  font-size: 30px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  flex-wrap: wrap;
+  color: grey;
 }
 
 input {
   margin: 20px 0;
   width: 300px;
   padding: 8px;
+}
+
+a{
+  flex-wrap: wrap;
+  background-color: #fff;
+  color: blue;
 }
 
 input:focus-visible {
